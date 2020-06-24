@@ -2,9 +2,11 @@
     scroll-behavior: smooth;
 }
 
+/*Pre header*/
 .pre-tease {
     display: block;
-    padding: 5px 20px;
+    margin: 0px;
+    padding: 5px 5px;
     font-weight: 100;
     color: rgb(255, 255, 255);
     text-align: center;
@@ -14,6 +16,41 @@
 .bg-light{
     background-color: white;
 }
+
+.nav-link:hover {
+    transition: border 0.7s;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+/*Navigation Dropdown on hover*/
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* remove the gap so it doesn't close*/
+ }
+
+#ovalay {
+    font-size: 5em;
+    color: white;
+    text-transform: uppercase;
+  }
+
+.bannner {
+    min-height: 700px;
+    position: relative;
+}
+
+.banner:hover {
+    -webkit-filter: blur(5px); transition:all 7s;
+}
+
+/*Showcase image*/
+ #showcase {
+    background: url(../imgs/showcase.jpeg) center/cover no-repeat;
+    min-height: 1080px;
+    position: relative;
+}
+
+
 
 .black {
     background-color: #1d1d1d;
@@ -32,6 +69,9 @@
     filter: opacity(100%);
 }
 
+#course-content {
+    justify-content: center;
+}
 
 .copyright-a {
     color: #ffffff;
@@ -46,3 +86,59 @@
     font-size: 0.6875rem;
     font-weight: 500;
 }
+
+/*Sticky Chat bot*/
+.sticky-chat-bot {
+    position:fixed;
+    top:500px;
+    left:400px;
+    padding:0px;
+    margin:0px;
+    padding:10px 10px;
+    font-size:25px;
+}
+
+/*Sticky social*/
+.sticky-social{
+    position:fixed;
+    top:300px;
+    left:-40px;
+    padding:0px;
+    margin:0px;
+    
+  }
+  .social{
+    list-style:none;
+  }
+  .social li{
+    padding:10px 10px;
+    font-size:25px;
+    transition:all 0.8s ease-in-out;
+  }
+  .social li:hover{
+      margin-right:-30px;
+   box-shadow:2px 5px 10px grey;
+  }
+  .social li:hover .fa{
+      margin-left:20px;
+    
+  }
+  .fa{
+    color:#fff;
+    transition:all 0.8s ease-in-out;
+  }
+  .fb{
+    background-color:#3C5A98;
+  }
+  .twitter{
+      background-color:#1EA1F2;
+  }
+  .insta{
+      background-color:#DC4F42;
+  }
+  .pin{
+      background-color:#CB2128;
+  }
+  .vim{
+      background-color:#59BFBE;
+  }

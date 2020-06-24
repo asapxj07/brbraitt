@@ -12,75 +12,316 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
 
     <title>BRBRAITT</title>
 
     <!-- Icon Link -->
-    <link rel="icon" href="imgs/brbrlogo.jpg" type="image/icon type">
+    <link rel="icon" href="imgs/brbraitt.png" type="image/icon type">
 
 </head>
 
 <body>
 
-      <a href="https://getbootstrap.com/" class="pre-tease">Bootstrap 4 is here!</a>
+    <!-- Pre header -->
+    <p class="pre-tease">
+        <marquee>This is basic example of marquee
+            <span class="badge badge-secondary danger">Important</span>
+            This is basic example of marquee
+            <span class="badge badge-secondary danger">Important</span>
+            This is basic example of marquee
+            <span class="badge badge-secondary danger">Important</span>
+        </marquee>
 
+    </p>
+    
     <!-- Navigation -->
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="imgs/brbraitt.png" height="40" width="40"></a>
+        <a class="navbar-brand" href="#">BRBRAITT JABALPUR</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
+          <ul class="navbar-nav mr-auto">
+            
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#">Home</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT</a>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Trainings
+                </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Action</a>
+                      
+                      <a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          National
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+
+                      <a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">International</a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                  </div>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                A
-              </a>
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Infra Sharing
+                </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        B
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </div>
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a> 
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                <a class="nav-link" href="#">Press Release</a>
+            </li>  
+          </ul>
+
+          <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">TENDER</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">RTI</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+
           </ul>
           
         </div>
+        </div>
+        
     </nav>
 
+    <!-- Showcase -->
+    <!-- <section id="showcase" class="demo d-flex justify-content-center align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6"><h1 id="ovalay"></h1></div>
+                <div class="col-md-6"><img src="imgs/brbraitt.png" alt="" srcset=""></div>
+            </div>
+            <h1 class=""></h1>
+        </div>
+    </section> -->
+
+    <div class="banner">
+        
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100 " src="imgs/brbraitt.png" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="imgs/showcase.jpeg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="imgs/brbraitt.png" alt="Third slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        
+    </div>
+
+    <div id="course-content" class="container my-5">
+        <h2 class="my-5">Courses & Trainings</h2>
+        <div class="row">
+            <div class="col-md-4 p-5">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="imgs/brbraitt.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-5">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="imgs/brbraitt.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-5">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="imgs/brbraitt.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
     
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae sint dolor laborum possimus rerum amet accusantium ad, dolorem iste nobis necessitatibus quas dolore, ut voluptas nihil, sequi fugit tenetur ullam quibusdam earum aliquam quam! Enim voluptate ad impedit maiores consequuntur non cumque ex quasi harum cupiditate necessitatibus, facilis illo magni fugiat? Quod at ea eveniet temporibus nihil autem aliquid, nesciunt architecto pariatur libero dolore facilis, eligendi odit sunt impedit rerum dolores. Maiores, quas. Totam deleniti vitae officiis tempore. Autem ducimus ab, tenetur deleniti quis accusantium possimus. Quis pariatur saepe dicta labore cum, vitae magni! Nihil reiciendis quae, id facilis reprehenderit recusandae dolorem eos mollitia inventore omnis ratione commodi exercitationem sit possimus excepturi soluta debitis dolore laudantium quas voluptate tempore nulla non aspernatur repellendus. Totam dolorem modi corporis ex quia voluptatibus velit, distinctio perspiciatis impedit id ipsam, fuga delectus enim voluptates magni eum! Architecto fugit perspiciatis explicabo earum. Temporibus voluptatem nostrum nemo vitae aliquid delectus perferendis ratione expedita sit dicta labore harum animi, optio repudiandae odit tempora explicabo tempore molestias officiis! Accusantium eligendi possimus eaque ad esse beatae vitae nihil non provident temporibus nemo doloremque molestiae porro cupiditate maxime dolorum ratione error explicabo, necessitatibus voluptatum blanditiis architecto similique eum! In illum consectetur quae necessitatibus quisquam deleniti? Vitae quod natus perspiciatis quia nostrum adipisci eaque eligendi, rem omnis illum veniam repellendus, aspernatur nemo officiis dolorum doloremque cum dolorem dicta laborum at repellat in, blanditiis est. Pariatur, voluptatum! Laboriosam id cumque excepturi! Laboriosam exercitationem numquam saepe cupiditate sequi dolorem dignissimos aut eius? Quidem placeat porro ipsam cumque, ea quibusdam, delectus laudantium pariatur odio voluptatum dolores totam neque, tempore architecto suscipit. Sunt laborum accusantium, quibusdam, tempora ad modi veritatis est optio minima voluptas quo enim ipsa facilis fugiat expedita dicta eos reprehenderit cupiditate esse beatae quam, aperiam distinctio! Quia qui impedit placeat modi dolores, quaerat ea illum voluptate. Omnis sequi, deleniti odio sit ad repellat quam alias placeat quidem officiis libero natus corporis velit eum id asperiores praesentium fugiat? Vel inventore iure sit saepe nobis consequuntur cupiditate esse, quibusdam omnis, fuga sunt sequi doloribus deserunt natus nostrum expedita reprehenderit accusantium quam aliquam modi dolores! Nemo ratione officia voluptates, cumque laborum repellat quia maxime dolorum consectetur autem, earum commodi at nisi hic ducimus repudiandae esse ab aliquam ullam quidem ex omnis! Omnis excepturi earum in, eligendi iusto quas non at ducimus? Quis ipsum quibusdam nemo, sint aperiam a? Ipsum, vitae, fuga exercitationem fugit veniam quod eum impedit, sapiente praesentium amet ad aperiam quisquam voluptas enim necessitatibus sed facilis molestias autem? Debitis, ab. Natus beatae odio laborum veritatis similique quia illo culpa sapiente delectus saepe, quis corrupti ex, nam obcaecati voluptatibus esse molestiae vel. Hic sit quas totam dicta libero maiores, doloribus, harum eaque ut quidem ea. Nihil, provident? Libero ex nihil provident dicta voluptatibus sit repudiandae deleniti dolorum, quam tenetur reiciendis, nisi vitae soluta quisquam ipsum explicabo repellendus iure facere molestiae expedita, necessitatibus beatae consectetur? Maiores quod illum, ullam sapiente ratione, tempore debitis ducimus facere sint vitae explicabo quia doloribus voluptatum labore nobis ex iusto. Minus eligendi mollitia id recusandae optio? Molestias harum tempora corporis iusto architecto deleniti, delectus maxime omnis neque distinctio repudiandae vitae dolorem debitis corrupti praesentium similique eum voluptas. Fuga nam at eos placeat eum voluptatum recusandae deserunt corrupti ad, numquam distinctio voluptatem commodi totam possimus amet nulla perspiciatis temporibus. Pariatur repudiandae placeat maxime. Laudantium tempora vitae esse eum distinctio officiis nihil nam neque mollitia quis voluptatibus minima facilis, soluta voluptate, laboriosam architecto aspernatur voluptatem perspiciatis corrupti. Delectus placeat nam laborum recusandae labore dolorum illo iste ipsam dolorem molestias cum laboriosam accusantium nihil, adipisci animi mollitia excepturi rem quos, porro quae. Ipsum sed eos temporibus perferendis consectetur omnis similique dolor officiis aliquid a natus debitis inventore nemo, hic saepe. Natus labore ratione doloremque soluta tempora ipsum nihil officiis corporis, quo nulla. Voluptatibus illo iure assumenda dolorum maxime? Soluta repudiandae tempora consequuntur dolore? A tenetur dolorem ipsum necessitatibus sed, aut exercitationem nostrum. Ipsa, illum ipsam saepe dolor rerum quibusdam veniam perspiciatis error reiciendis, autem numquam cumque tempora, consequuntur et! Veniam est fuga necessitatibus illo cumque officia aspernatur rerum modi recusandae? Itaque dolor eum neque architecto ad soluta hic debitis impedit consequatur ipsa. Animi dolorem molestiae iste architecto doloribus impedit aut quia incidunt dolorum eius perspiciatis corporis ullam in reprehenderit voluptatem eligendi beatae rerum distinctio, temporibus, eveniet itaque dicta maiores. Sunt, similique. Ea accusamus laudantium quas inventore nulla molestiae pariatur ab quidem dicta laboriosam possimus ipsa nihil voluptas sit in, culpa sint, aliquid ipsam rerum quis, voluptatum dignissimos tenetur? Quas a accusamus modi, neque praesentium quidem ipsa perspiciatis soluta asperiores eum nam! Veniam porro voluptatibus incidunt in suscipit. Necessitatibus commodi dicta ullam aliquid cupiditate, culpa dolor excepturi quaerat, natus, distinctio nihil nulla quas. In voluptatum ratione blanditiis pariatur doloribus voluptate fugit necessitatibus est ut autem exercitationem similique, rem debitis sapiente aut quia nisi quo, hic maiores ea et. Omnis reiciendis ullam non quaerat blanditiis nemo numquam impedit adipisci necessitatibus quo autem asperiores et sint cumque maiores, nostrum dolore culpa. Eveniet eum exercitationem, eos dolores iste, sapiente delectus, fugiat quidem iure facere unde facilis? Facere quibusdam voluptate nesciunt reiciendis ut, sunt non vel nostrum, accusamus inventore magni deleniti dolorum suscipit omnis quasi iusto dignissimos debitis, temporibus unde blanditiis. Quos neque, aliquam sapiente ducimus excepturi tempora praesentium, perspiciatis sint aliquid quaerat incidunt repellat nihil nulla labore ullam recusandae eligendi. Dignissimos, architecto cum? Reprehenderit possimus sapiente cumque obcaecati voluptas aspernatur ipsum, officia illum, placeat deleniti repellendus animi quae dignissimos culpa nihil, est provident adipisci eum nulla perferendis nesciunt! Veniam similique quisquam modi temporibus? Nesciunt officiis modi obcaecati nihil, nam laudantium qui repudiandae rerum eveniet eius eos deserunt repellat odit, aliquam, corrupti fuga autem sunt! Corporis obcaecati perferendis porro fugit maxime iste unde a exercitationem, sapiente voluptatibus provident perspiciatis similique? Quas itaque qui quam deleniti necessitatibus possimus, fugiat odit, iste est voluptatibus temporibus omnis sapiente consequuntur accusantium. Repellat hic aspernatur ex pariatur odit culpa vero explicabo fuga numquam voluptates esse obcaecati tempora error totam molestias nihil repudiandae dolorum, rerum ipsum commodi! Quam dolorum reprehenderit fugit possimus dicta. Omnis!</p>
+    <section>
+        <div class="container text-center mt-4">
+            <h3>WHAT OUR HAPPY STUDENTS ARE SAYING</h3>
+            <div class="row">
+                <div class="col-md-4 p-3">
+                    <img src="imgs/quote.png" alt="" class="img-fluid mb-3">
+                    <blockquote class="blockquote">
+                        <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis esse sunt
+                            doloribus iure amet! Doloribus, doloremque maxime obcaecati ea assumenda ratione tenetur
+                            illum, aperiam dolorum veritatis accusamus veniam recusandae quos?</p>
+                        <footer class="blockquote-footer">Mark Twain</footer>
+                    </blockquote>
+                </div>
+                <div class="col-md-4 p-3">
+                    <img src="imgs/quote.png" alt="" class="img-fluid mb-3">
+                    <blockquote class="blockquote">
+                        <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis esse sunt
+                            doloribus iure amet! Doloribus, doloremque maxime obcaecati ea assumenda ratione tenetur
+                            illum, aperiam dolorum veritatis accusamus veniam recusandae quos?</p>
+                        <footer class="blockquote-footer">Mark Twain</footer>
+                    </blockquote>
+                </div>
+                <div class="col-md-4 p-3">
+                    <img src="imgs/quote.png" alt="" class="img-fluid mb-3">
+                    <blockquote class="blockquote">
+                        <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis esse sunt
+                            doloribus iure amet! Doloribus, doloremque maxime obcaecati ea assumenda ratione tenetur
+                            illum, aperiam dolorum veritatis accusamus veniam recusandae quos?</p>
+                        <footer class="blockquote-footer">Mark Twain</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container text-center mt-5">
+            <h3>OUR LEGACY</h3>
+            <h5 class="text-primary">#BRBRAITT</h5>
+            <div class="row mt-4">
+                <div class="col-6 col-lg-3">
+                    <img class="img-fluid mb-4" src="imgs/showcase.jpeg">
+                </div>
+                <div class="col-6 col-lg-3">
+                    <img class="img-fluid mb-4" src="imgs/showcase.jpeg">
+                </div>
+                <div class="col-6 col-lg-3">
+                    <img class="img-fluid mb-4" src="imgs/showcase.jpeg">
+                </div>
+                <div class="col-6 col-lg-3">
+                    <img class="img-fluid mb-4" src="imgs/showcase.jpeg">
+                </div>
+                <div class="col-6 col-lg-3">
+                    <img class="img-fluid mb-4" src="imgs/showcase.jpeg">
+                </div>
+                <div class="col-6 col-lg-3">
+                    <img class="img-fluid mb-4" src="imgs/showcase.jpeg">
+                </div>
+                <div class="col-6 col-lg-3">
+                    <img class="img-fluid mb-4" src="imgs/showcase.jpeg">
+                </div>
+                <div class="col-6 col-lg-3">
+                    <img class="img-fluid mb-4" src="imgs/showcase.jpeg">
+                </div>
+            </div>
+    </section>
+
+    <section>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-7 mb-3 ">
+                    <div id="mainCarousel" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="imgs/showcase.jpeg" alt="" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="imgs/showcase.jpeg" alt="" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="imgs/showcase.jpeg" alt="" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="imgs/showcase.jpeg" alt="" class="d-block w-100">
+                            </div>
+                        </div>
+                        <a href="#mainCarousel" class="carousel-control-prev" data-slide="prev" role="button">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a href="#mainCarousel" class="carousel-control-next" data-slide="next" role="button">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <h3>BRBRAITT ON NEWS</h3>
+                    <P class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, sequi magnam.
+                        Optio sint
+                        illo cumque esse aliquam, aliquid voluptatibus dignissimos dolor natus odit ipsa dicta nesciunt
+                        dolores exercitationem commodi expedita?</P>
+                    <a href="">See for Yourself →</a>
+                </div>
+            </div>
+        </div>
+    </section>
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 p-5">
+                <h2>Follow and share! to know the latest and greatest of BRBRAITT →</h2>
+                <img src="imgs/brbraitt-stamp.jpg" style="justify-content: center;" width="250" height="300" >
+            </div>
+            <div class="col-md-4">
+                <!-- Facebook embed timeline -->
+                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FBrbraitt-Ridge-Road-Jabalpur-1738061133102515%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="400" height="550" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+            </div>
+
+            <!-- Twitter embed timeline -->
+            <div class="col-md-4">
+                <a class="twitter-timeline" data-width="400" data-height="550" href="https://twitter.com/BrbraittJbp?ref_src=twsrc%5Etfw">Tweets by BrbraittJbp</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+        </div>
+    </div>
     
     
     <!-- Footer -->
@@ -128,6 +369,27 @@
         </div>
 
     </section>
+
+
+    <!-- Sticky chat bot -->
+    <!-- <div class="sticky-chat-bot">
+        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i>
+    </div> -->
+
+    <!-- Sticky Social media -->
+    <div class="sticky-social">
+        <ul class="social">
+          <li class="fb"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li class="twitter"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li class="insta"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            <li class="pin"><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+            <li class="vim"><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
     
     <!-- JavaScript -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
