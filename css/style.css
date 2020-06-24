@@ -1,0 +1,48 @@
+.body{
+    scroll-behavior: smooth;
+}
+
+.pre-tease {
+    display: block;
+    padding: 5px 20px;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: #0275d8;
+}
+
+.bg-light{
+    background-color: white;
+}
+
+.black {
+    background-color: #1d1d1d;
+}
+
+.icon {
+    height: 20px;
+    width: 20px;
+}
+
+.icon {
+    filter: opacity(85%);
+}
+
+.icon:hover {
+    filter: opacity(100%);
+}
+
+
+.copyright-a {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.6875rem;
+    font-weight: 500;
+}
+
+.social-a {
+    color: #b4b4b4;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.6875rem;
+    font-weight: 500;
+}
